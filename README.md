@@ -1,1 +1,3 @@
-# nomad-instagram
+# Nomad Instagram
+
+Готовые слайды для Instagram гостиницы Nomad (Есик). Папки по дате публикации; Metricool забирает картинки по прямым ссылкам.
