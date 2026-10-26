@@ -12,7 +12,10 @@
 | `nomad-copywriter` | подписи, тексты слайдов, хэштеги, KZ/EN |
 | `nomad-designer` | слайды JPG для постов и сторис в фирменном стиле |
 | `nomad-reels` | сценарий и монтаж Reels (ffmpeg) |
+| `nomad-trend-reels` | ищет трендовые Reels с музыкой, монтирует под бит, сохраняет в `reels/` и ставит в Metricool |
 | `nomad-publisher` | постановка в Metricool (по умолчанию — на проверку) |
 | `nomad-analyst` | еженедельный разбор статистики Metricool |
 
 Типичная цепочка: strategist → copywriter → designer / reels → publisher, раз в неделю — analyst.
+
+Тренды: «nomad-trend-reels, найди тренд и сделай рилс». Исходники — в `media/`, готовое — в `reels/ДАТА-тема/` (две версии: без звука под трендовый трек для Instagram и с собственной музыкой для Metricool).
